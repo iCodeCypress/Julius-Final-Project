@@ -1,0 +1,194 @@
+body {
+    background-color: blue;
+    text-align: center;
+}
+
+li {
+    color: red;
+    list-style-type: none;
+    font-size: 55px;
+}
+
+.Box1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    justify-content: space-between;
+}
+
+.Box2 {
+    background-color: turquoise;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.Box3 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+
+}
+
+.HI {
+    background-color:yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+  
+}
+.Bye{
+    background-color:black;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.Hello{
+    background-color:pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.Fortnite{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    
+}
+span{
+    color: orange;
+    font-size: 40px;
+}
+
+
+h1{
+    font-size:60px;
+}
+
+button{
+    font-size: 30px;
+    background-color: pink;
+}
+h1:hover{
+    color: aqua;
+}
+
+ li:hover{
+        color:yellow
+}
+h2{
+    color: deeppink;
+    font-size: 40px;
+}
+
+h2:hover{
+    color: turquoise;
+}
+p{
+    color:greenyellow;
+    font-size: 50px;
+}
+p:hover{
+    color: red;
+}
+
+.bounceIn{
+    animation: bounceIn 2s infinite;
+}
+
+
+
+
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.wiggle {
+    animation: wiggle 1s linear infinite;
+}
+
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+.bouncy{
+    animation: bouncy 3s infinite;
+    position: relative;
+}
+@keyframes bouncy{
+0%,40%{
+    top: 0px;
+}
+43%{
+    top:-30%
+}
+46%{
+    top: 0px;
+}
+48%{
+    top: -15px;
+}
+50%,100%{
+top:0px;
+}
+}
+.box{
+    background-color:aqua;
+    height:150px;
+}
+
+img {
+    height: 300px;
+    transition: 1s;
+}
+
+img:hover {
+    height: 500px
+}
+
